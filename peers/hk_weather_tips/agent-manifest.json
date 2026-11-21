@@ -1,0 +1,13 @@
+{
+  "brand": "Hong Kong weather tips — sample peer",
+  "networks": [{
+    "name": "hk_weather_tips",
+    "front_man": "weather_guide",
+    "hocon": "./network.json",
+    "description": "Declarative sample for consent-gated discovery. Not a live weather forecast."
+  }],
+  "llm_router": {"default": {"mode": "none", "description": "Discovery sample only; no inference."}},
+  "allowed_peers": [],
+  "peer_policy": {"mode": "closed"},
+  "agent_mcp": {"available": false, "reason": "Static discovery sample."}
+}

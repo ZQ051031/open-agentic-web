@@ -1,0 +1,1650 @@
+{
+  "version": 1,
+  "currency": "HKD",
+  "usd_rate": 7.8,
+  "disclaimer": "Prices and hours are approximate; verify before visiting.",
+  "updated": "2026-11-21",
+  "places": [
+    {
+      "id": "tai-kwun",
+      "name": "Tai Kwun",
+      "category": "attraction",
+      "district": "Central",
+      "region": "hong_kong_island",
+      "tags": [
+        "culture",
+        "museum",
+        "family"
+      ],
+      "price_hkd": 0,
+      "duration_min": 90,
+      "open": "10:00",
+      "close": "22:00",
+      "closed_days": [],
+      "kid_friendly": true,
+      "lat": 22.2815,
+      "lng": 114.1548,
+      "source": "https://en.wikipedia.org/wiki/Tai_Kwun",
+      "notes": "Approximate per-person visit cost and regular hours; special exhibitions, holidays and transport fares may differ. Coordinates approximate the venue or transport boarding point."
+    },
+    {
+      "id": "hong-kong-park",
+      "name": "Hong Kong Park",
+      "category": "attraction",
+      "district": "Central",
+      "region": "hong_kong_island",
+      "tags": [
+        "nature",
+        "family",
+        "budget"
+      ],
+      "price_hkd": 0,
+      "duration_min": 75,
+      "open": "06:00",
+      "close": "23:00",
+      "closed_days": [],
+      "kid_friendly": true,
+      "lat": 22.2775,
+      "lng": 114.1617,
+      "source": "https://en.wikipedia.org/wiki/Hong_Kong_Park",
+      "notes": "Approximate per-person visit cost and regular hours; special exhibitions, holidays and transport fares may differ. Coordinates approximate the venue or transport boarding point."
+    },
+    {
+      "id": "hong-kong-zoological-and-botanical-gardens",
+      "name": "Hong Kong Zoological and Botanical Gardens",
+      "category": "attraction",
+      "district": "Central",
+      "region": "hong_kong_island",
+      "tags": [
+        "nature",
+        "family",
+        "budget"
+      ],
+      "price_hkd": 0,
+      "duration_min": 60,
+      "open": "06:00",
+      "close": "19:00",
+      "closed_days": [],
+      "kid_friendly": true,
+      "lat": 22.2779,
+      "lng": 114.1548,
+      "source": "https://en.wikipedia.org/wiki/Hong_Kong_Zoological_and_Botanical_Gardens",
+      "notes": "Approximate per-person visit cost and regular hours; special exhibitions, holidays and transport fares may differ. Coordinates approximate the venue or transport boarding point."
+    },
+    {
+      "id": "mak-s-noodle",
+      "name": "Mak's Noodle",
+      "category": "restaurant",
+      "district": "Central",
+      "region": "hong_kong_island",
+      "tags": [
+        "food",
+        "budget"
+      ],
+      "price_hkd": 65,
+      "duration_min": 45,
+      "open": "11:00",
+      "close": "21:00",
+      "closed_days": [],
+      "kid_friendly": true,
+      "lat": 22.2826,
+      "lng": 114.1549,
+      "source": "https://en.wikipedia.org/wiki/Mak's_Noodle",
+      "notes": "Approximate per-person visit cost and regular hours; special exhibitions, holidays and transport fares may differ. Coordinates approximate the venue or transport boarding point.",
+      "meal_slots": [
+        "lunch",
+        "snack",
+        "dinner"
+      ],
+      "dining_style": "wonton_noodles"
+    },
+    {
+      "id": "kau-kee-food-cafe",
+      "name": "Kau Kee Food Cafe",
+      "category": "restaurant",
+      "district": "Sheung Wan",
+      "region": "hong_kong_island",
+      "tags": [
+        "food"
+      ],
+      "price_hkd": 85,
+      "duration_min": 45,
+      "open": "12:30",
+      "close": "22:00",
+      "closed_days": [
+        "Sunday"
+      ],
+      "kid_friendly": true,
+      "lat": 22.2848,
+      "lng": 114.1527,
+      "source": "https://en.wikipedia.org/wiki/Kau_Kee_Restaurant",
+      "notes": "Approximate per-person visit cost and regular hours; special exhibitions, holidays and transport fares may differ. Coordinates approximate the venue or transport boarding point.",
+      "meal_slots": [
+        "lunch",
+        "dinner"
+      ],
+      "dining_style": "beef_noodles"
+    },
+    {
+      "id": "luk-yu-tea-house",
+      "name": "Luk Yu Tea House",
+      "category": "restaurant",
+      "district": "Central",
+      "region": "hong_kong_island",
+      "tags": [
+        "food",
+        "culture"
+      ],
+      "price_hkd": 220,
+      "duration_min": 75,
+      "open": "07:00",
+      "close": "21:00",
+      "closed_days": [],
+      "kid_friendly": true,
+      "lat": 22.2821,
+      "lng": 114.1563,
+      "source": "https://www.lukyuteahouse.com/",
+      "notes": "Approximate per-person visit cost and regular hours; special exhibitions, holidays and transport fares may differ. Coordinates approximate the venue or transport boarding point.",
+      "meal_slots": [
+        "breakfast",
+        "lunch",
+        "dinner"
+      ],
+      "dining_style": "cantonese_tea_house"
+    },
+    {
+      "id": "star-ferry-central-to-tsim-sha-tsui",
+      "name": "Star Ferry Central to Tsim Sha Tsui",
+      "category": "transport",
+      "district": "Central",
+      "region": "hong_kong_island",
+      "tags": [
+        "views",
+        "family",
+        "budget"
+      ],
+      "price_hkd": 6.5,
+      "duration_min": 20,
+      "open": "06:30",
+      "close": "23:30",
+      "closed_days": [],
+      "kid_friendly": true,
+      "lat": 22.2867,
+      "lng": 114.1602,
+      "source": "https://www.starferry.com.hk/en/service",
+      "notes": "Approximate per-person visit cost and regular hours; special exhibitions, holidays and transport fares may differ. Coordinates approximate the venue or transport boarding point. Adult upper-deck weekend/public-holiday fare allowance; weekday fare is lower."
+    },
+    {
+      "id": "peak-tram",
+      "name": "Peak Tram",
+      "category": "transport",
+      "district": "Central",
+      "region": "hong_kong_island",
+      "tags": [
+        "views",
+        "family"
+      ],
+      "price_hkd": 116,
+      "duration_min": 30,
+      "open": "07:30",
+      "close": "23:00",
+      "closed_days": [],
+      "kid_friendly": true,
+      "lat": 22.2777,
+      "lng": 114.1594,
+      "source": "https://en.wikipedia.org/wiki/Peak_Tram",
+      "notes": "Approximate per-person visit cost and regular hours; special exhibitions, holidays and transport fares may differ. Coordinates approximate the venue or transport boarding point. Adult Peak Tram return ticket only; Sky Terrace admission excluded."
+    },
+    {
+      "id": "central-market",
+      "name": "Central Market",
+      "category": "attraction",
+      "district": "Central",
+      "region": "hong_kong_island",
+      "tags": [
+        "culture",
+        "shopping",
+        "family"
+      ],
+      "price_hkd": 0,
+      "duration_min": 60,
+      "open": "10:00",
+      "close": "22:00",
+      "closed_days": [],
+      "kid_friendly": true,
+      "lat": 22.2844,
+      "lng": 114.1558,
+      "source": "https://en.wikipedia.org/wiki/Central_Market,_Hong_Kong",
+      "notes": "Approximate per-person visit cost and regular hours; special exhibitions, holidays and transport fares may differ. Coordinates approximate the venue or transport boarding point."
+    },
+    {
+      "id": "man-mo-temple",
+      "name": "Man Mo Temple",
+      "category": "attraction",
+      "district": "Sheung Wan",
+      "region": "hong_kong_island",
+      "tags": [
+        "culture",
+        "budget"
+      ],
+      "price_hkd": 0,
+      "duration_min": 40,
+      "open": "08:00",
+      "close": "18:00",
+      "closed_days": [],
+      "kid_friendly": true,
+      "lat": 22.2839,
+      "lng": 114.1503,
+      "source": "https://en.wikipedia.org/wiki/Man_Mo_Temple_(Hong_Kong)",
+      "notes": "Approximate per-person visit cost and regular hours; special exhibitions, holidays and transport fares may differ. Coordinates approximate the venue or transport boarding point."
+    },
+    {
+      "id": "pmq",
+      "name": "PMQ",
+      "category": "attraction",
+      "district": "Sheung Wan",
+      "region": "hong_kong_island",
+      "tags": [
+        "culture",
+        "shopping"
+      ],
+      "price_hkd": 0,
+      "duration_min": 60,
+      "open": "12:00",
+      "close": "19:00",
+      "closed_days": [],
+      "kid_friendly": true,
+      "lat": 22.2834,
+      "lng": 114.1516,
+      "source": "https://en.wikipedia.org/wiki/PMQ_(Hong_Kong)",
+      "notes": "Approximate per-person visit cost and regular hours; special exhibitions, holidays and transport fares may differ. Coordinates approximate the venue or transport boarding point."
+    },
+    {
+      "id": "lin-heung-lau",
+      "name": "Lin Heung Lau",
+      "category": "restaurant",
+      "district": "Sheung Wan",
+      "region": "hong_kong_island",
+      "tags": [
+        "food",
+        "culture"
+      ],
+      "price_hkd": 120,
+      "duration_min": 75,
+      "open": "06:00",
+      "close": "22:00",
+      "closed_days": [],
+      "kid_friendly": true,
+      "lat": 22.2847,
+      "lng": 114.153,
+      "source": "https://en.wikipedia.org/wiki/Lin_Heung_Tea_House",
+      "notes": "Approximate per-person visit cost and regular hours; special exhibitions, holidays and transport fares may differ. Coordinates approximate the venue or transport boarding point.",
+      "meal_slots": [
+        "breakfast",
+        "lunch",
+        "dinner"
+      ],
+      "dining_style": "dim_sum"
+    },
+    {
+      "id": "sing-heung-yuen",
+      "name": "Sing Heung Yuen",
+      "category": "restaurant",
+      "district": "Sheung Wan",
+      "region": "hong_kong_island",
+      "tags": [
+        "food",
+        "budget",
+        "dai-pai-dong"
+      ],
+      "price_hkd": 55,
+      "duration_min": 45,
+      "open": "08:00",
+      "close": "15:30",
+      "closed_days": [
+        "Sunday"
+      ],
+      "kid_friendly": true,
+      "lat": 22.2847,
+      "lng": 114.1526,
+      "source": "https://www.discoverhongkong.com/eng/place-to-go/travel.guide-sing-heung-yuen.html",
+      "notes": "Approximate per-person visit cost and regular hours; special exhibitions, holidays and transport fares may differ. Coordinates approximate the venue or transport boarding point.",
+      "meal_slots": [
+        "breakfast",
+        "lunch",
+        "snack"
+      ],
+      "dining_style": "dai_pai_dong"
+    },
+    {
+      "id": "blue-house",
+      "name": "Blue House",
+      "category": "attraction",
+      "district": "Wan Chai",
+      "region": "hong_kong_island",
+      "tags": [
+        "culture",
+        "budget"
+      ],
+      "price_hkd": 0,
+      "duration_min": 45,
+      "open": "10:00",
+      "close": "18:00",
+      "closed_days": [
+        "Wednesday"
+      ],
+      "kid_friendly": true,
+      "lat": 22.2742,
+      "lng": 114.1737,
+      "source": "https://en.wikipedia.org/wiki/Blue_House_(Hong_Kong)",
+      "notes": "Approximate per-person visit cost and regular hours; special exhibitions, holidays and transport fares may differ. Coordinates approximate the venue or transport boarding point."
+    },
+    {
+      "id": "golden-bauhinia-square",
+      "name": "Golden Bauhinia Square",
+      "category": "attraction",
+      "district": "Wan Chai",
+      "region": "hong_kong_island",
+      "tags": [
+        "views",
+        "budget"
+      ],
+      "price_hkd": 0,
+      "duration_min": 35,
+      "open": "00:00",
+      "close": "23:59",
+      "closed_days": [],
+      "kid_friendly": true,
+      "lat": 22.2841,
+      "lng": 114.1731,
+      "source": "https://en.wikipedia.org/wiki/Golden_Bauhinia_Square",
+      "notes": "Approximate per-person visit cost and regular hours; special exhibitions, holidays and transport fares may differ. Coordinates approximate the venue or transport boarding point."
+    },
+    {
+      "id": "kam-s-roast-goose",
+      "name": "Kam's Roast Goose",
+      "category": "restaurant",
+      "district": "Wan Chai",
+      "region": "hong_kong_island",
+      "tags": [
+        "food"
+      ],
+      "price_hkd": 110,
+      "duration_min": 60,
+      "open": "11:30",
+      "close": "21:30",
+      "closed_days": [],
+      "kid_friendly": true,
+      "lat": 22.2763,
+      "lng": 114.1727,
+      "source": "https://www.krg.com.hk/!en/contact/contact.html",
+      "notes": "Approximate per-person visit cost and regular hours; special exhibitions, holidays and transport fares may differ. Coordinates approximate the venue or transport boarding point.",
+      "meal_slots": [
+        "lunch",
+        "dinner"
+      ],
+      "dining_style": "roast_meat"
+    },
+    {
+      "id": "hong-kong-tramways-ding-ding",
+      "name": "Hong Kong Tramways Ding Ding",
+      "category": "transport",
+      "district": "Wan Chai",
+      "region": "hong_kong_island",
+      "tags": [
+        "culture",
+        "budget",
+        "family"
+      ],
+      "price_hkd": 3.3,
+      "duration_min": 40,
+      "open": "06:00",
+      "close": "23:00",
+      "closed_days": [],
+      "kid_friendly": true,
+      "lat": 22.2778,
+      "lng": 114.1733,
+      "source": "https://en.wikipedia.org/wiki/Hong_Kong_Tramways",
+      "notes": "Approximate per-person visit cost and regular hours; special exhibitions, holidays and transport fares may differ. Coordinates approximate the venue or transport boarding point."
+    },
+    {
+      "id": "victoria-park",
+      "name": "Victoria Park",
+      "category": "attraction",
+      "district": "Causeway Bay",
+      "region": "hong_kong_island",
+      "tags": [
+        "nature",
+        "family",
+        "budget"
+      ],
+      "price_hkd": 0,
+      "duration_min": 60,
+      "open": "00:00",
+      "close": "23:59",
+      "closed_days": [],
+      "kid_friendly": true,
+      "lat": 22.2823,
+      "lng": 114.1891,
+      "source": "https://en.wikipedia.org/wiki/Victoria_Park%2C_Hong_Kong",
+      "notes": "Approximate per-person visit cost and regular hours; special exhibitions, holidays and transport fares may differ. Coordinates approximate the venue or transport boarding point."
+    },
+    {
+      "id": "tin-hau-temple-causeway-bay",
+      "name": "Tin Hau Temple Causeway Bay",
+      "category": "attraction",
+      "district": "Causeway Bay",
+      "region": "hong_kong_island",
+      "tags": [
+        "culture",
+        "budget"
+      ],
+      "price_hkd": 0,
+      "duration_min": 35,
+      "open": "07:00",
+      "close": "17:00",
+      "closed_days": [],
+      "kid_friendly": true,
+      "lat": 22.2827,
+      "lng": 114.1917,
+      "source": "https://en.wikipedia.org/wiki/Tin_Hau_Temple,_Causeway_Bay",
+      "notes": "Approximate per-person visit cost and regular hours; special exhibitions, holidays and transport fares may differ. Coordinates approximate the venue or transport boarding point."
+    },
+    {
+      "id": "sogo-causeway-bay",
+      "name": "SOGO Causeway Bay",
+      "category": "attraction",
+      "district": "Causeway Bay",
+      "region": "hong_kong_island",
+      "tags": [
+        "shopping"
+      ],
+      "price_hkd": 0,
+      "duration_min": 60,
+      "open": "10:00",
+      "close": "22:00",
+      "closed_days": [],
+      "kid_friendly": true,
+      "lat": 22.2804,
+      "lng": 114.1847,
+      "source": "https://en.wikipedia.org/wiki/Sogo_Hong_Kong",
+      "notes": "Approximate per-person visit cost and regular hours; special exhibitions, holidays and transport fares may differ. Coordinates approximate the venue or transport boarding point."
+    },
+    {
+      "id": "din-tai-fung-yee-wo-street",
+      "name": "Din Tai Fung Yee Wo Street",
+      "category": "restaurant",
+      "district": "Causeway Bay",
+      "region": "hong_kong_island",
+      "tags": [
+        "food",
+        "family"
+      ],
+      "price_hkd": 180,
+      "duration_min": 60,
+      "open": "11:30",
+      "close": "22:00",
+      "closed_days": [],
+      "kid_friendly": true,
+      "lat": 22.2795,
+      "lng": 114.1865,
+      "source": "https://dintaifung.com.hk/en/locations/",
+      "notes": "Approximate per-person visit cost and regular hours; special exhibitions, holidays and transport fares may differ. Coordinates approximate the venue or transport boarding point.",
+      "meal_slots": [
+        "lunch",
+        "dinner"
+      ],
+      "dining_style": "dumplings"
+    },
+    {
+      "id": "avenue-of-stars",
+      "name": "Avenue of Stars",
+      "category": "attraction",
+      "district": "Tsim Sha Tsui",
+      "region": "kowloon",
+      "tags": [
+        "views",
+        "culture",
+        "family",
+        "budget"
+      ],
+      "price_hkd": 0,
+      "duration_min": 60,
+      "open": "00:00",
+      "close": "23:59",
+      "closed_days": [],
+      "kid_friendly": true,
+      "lat": 22.293,
+      "lng": 114.1742,
+      "source": "https://en.wikipedia.org/wiki/Avenue_of_Stars%2C_Hong_Kong",
+      "notes": "Approximate per-person visit cost and regular hours; special exhibitions, holidays and transport fares may differ. Coordinates approximate the venue or transport boarding point."
+    },
+    {
+      "id": "kowloon-park",
+      "name": "Kowloon Park",
+      "category": "attraction",
+      "district": "Tsim Sha Tsui",
+      "region": "kowloon",
+      "tags": [
+        "nature",
+        "family",
+        "budget"
+      ],
+      "price_hkd": 0,
+      "duration_min": 75,
+      "open": "05:00",
+      "close": "23:59",
+      "closed_days": [],
+      "kid_friendly": true,
+      "lat": 22.301,
+      "lng": 114.1694,
+      "source": "https://en.wikipedia.org/wiki/Kowloon_Park",
+      "notes": "Approximate per-person visit cost and regular hours; special exhibitions, holidays and transport fares may differ. Coordinates approximate the venue or transport boarding point."
+    },
+    {
+      "id": "hong-kong-space-museum",
+      "name": "Hong Kong Space Museum",
+      "category": "attraction",
+      "district": "Tsim Sha Tsui",
+      "region": "kowloon",
+      "tags": [
+        "museum",
+        "family"
+      ],
+      "price_hkd": 10,
+      "duration_min": 90,
+      "open": "13:00",
+      "close": "21:00",
+      "closed_days": [
+        "Tuesday"
+      ],
+      "kid_friendly": true,
+      "lat": 22.2943,
+      "lng": 114.1719,
+      "source": "https://en.wikipedia.org/wiki/Hong_Kong_Space_Museum",
+      "notes": "Approximate per-person visit cost and regular hours; special exhibitions, holidays and transport fares may differ. Coordinates approximate the venue or transport boarding point."
+    },
+    {
+      "id": "hong-kong-museum-of-art",
+      "name": "Hong Kong Museum of Art",
+      "category": "attraction",
+      "district": "Tsim Sha Tsui",
+      "region": "kowloon",
+      "tags": [
+        "museum",
+        "culture",
+        "family",
+        "budget"
+      ],
+      "price_hkd": 0,
+      "duration_min": 90,
+      "open": "10:00",
+      "close": "18:00",
+      "closed_days": [
+        "Thursday"
+      ],
+      "kid_friendly": true,
+      "lat": 22.2931,
+      "lng": 114.1721,
+      "source": "https://en.wikipedia.org/wiki/Hong_Kong_Museum_of_Art",
+      "notes": "Approximate per-person visit cost and regular hours; special exhibitions, holidays and transport fares may differ. Coordinates approximate the venue or transport boarding point."
+    },
+    {
+      "id": "hong-kong-science-museum",
+      "name": "Hong Kong Science Museum",
+      "category": "attraction",
+      "district": "Tsim Sha Tsui",
+      "region": "kowloon",
+      "tags": [
+        "museum",
+        "family"
+      ],
+      "price_hkd": 20,
+      "duration_min": 90,
+      "open": "10:00",
+      "close": "19:00",
+      "closed_days": [
+        "Thursday"
+      ],
+      "kid_friendly": true,
+      "lat": 22.3011,
+      "lng": 114.1774,
+      "source": "https://en.wikipedia.org/wiki/Hong_Kong_Science_Museum",
+      "notes": "Approximate per-person visit cost and regular hours; special exhibitions, holidays and transport fares may differ. Coordinates approximate the venue or transport boarding point."
+    },
+    {
+      "id": "harbour-city",
+      "name": "Harbour City",
+      "category": "attraction",
+      "district": "Tsim Sha Tsui",
+      "region": "kowloon",
+      "tags": [
+        "shopping"
+      ],
+      "price_hkd": 0,
+      "duration_min": 60,
+      "open": "10:00",
+      "close": "22:00",
+      "closed_days": [],
+      "kid_friendly": true,
+      "lat": 22.2954,
+      "lng": 114.1683,
+      "source": "https://en.wikipedia.org/wiki/Harbour_City_(Hong_Kong)",
+      "notes": "Approximate per-person visit cost and regular hours; special exhibitions, holidays and transport fares may differ. Coordinates approximate the venue or transport boarding point."
+    },
+    {
+      "id": "star-ferry-tsim-sha-tsui-to-central",
+      "name": "Star Ferry Tsim Sha Tsui to Central",
+      "category": "transport",
+      "district": "Tsim Sha Tsui",
+      "region": "kowloon",
+      "tags": [
+        "views",
+        "family",
+        "budget"
+      ],
+      "price_hkd": 6.5,
+      "duration_min": 20,
+      "open": "06:30",
+      "close": "23:30",
+      "closed_days": [],
+      "kid_friendly": true,
+      "lat": 22.2937,
+      "lng": 114.1687,
+      "source": "https://www.starferry.com.hk/en/service",
+      "notes": "Approximate per-person visit cost and regular hours; special exhibitions, holidays and transport fares may differ. Coordinates approximate the venue or transport boarding point. Adult upper-deck weekend/public-holiday fare allowance; weekday fare is lower."
+    },
+    {
+      "id": "k11-musea",
+      "name": "K11 MUSEA",
+      "category": "attraction",
+      "district": "Tsim Sha Tsui",
+      "region": "kowloon",
+      "tags": [
+        "culture",
+        "shopping"
+      ],
+      "price_hkd": 0,
+      "duration_min": 60,
+      "open": "10:00",
+      "close": "22:00",
+      "closed_days": [],
+      "kid_friendly": true,
+      "lat": 22.2946,
+      "lng": 114.1738,
+      "source": "https://en.wikipedia.org/wiki/K11_Musea",
+      "notes": "Approximate per-person visit cost and regular hours; special exhibitions, holidays and transport fares may differ. Coordinates approximate the venue or transport boarding point."
+    },
+    {
+      "id": "hutong",
+      "name": "Hutong",
+      "category": "restaurant",
+      "district": "Tsim Sha Tsui",
+      "region": "kowloon",
+      "tags": [
+        "food",
+        "views"
+      ],
+      "price_hkd": 700,
+      "duration_min": 90,
+      "open": "12:00",
+      "close": "22:00",
+      "closed_days": [],
+      "kid_friendly": true,
+      "lat": 22.2965,
+      "lng": 114.1712,
+      "source": "https://hutong.com.hk/",
+      "notes": "Approximate per-person visit cost and regular hours; special exhibitions, holidays and transport fares may differ. Coordinates approximate the venue or transport boarding point. Located at H Zentre, 15 Middle Road; meal allowance, not a set-menu quote.",
+      "meal_slots": [
+        "lunch",
+        "dinner"
+      ],
+      "dining_style": "northern_chinese"
+    },
+    {
+      "id": "ladies-market",
+      "name": "Ladies Market",
+      "category": "attraction",
+      "district": "Mong Kok",
+      "region": "kowloon",
+      "tags": [
+        "shopping",
+        "budget"
+      ],
+      "price_hkd": 0,
+      "duration_min": 60,
+      "open": "12:00",
+      "close": "22:00",
+      "closed_days": [],
+      "kid_friendly": true,
+      "lat": 22.3185,
+      "lng": 114.1706,
+      "source": "https://en.wikipedia.org/wiki/Tung_Choi_Street",
+      "notes": "Approximate per-person visit cost and regular hours; special exhibitions, holidays and transport fares may differ. Coordinates approximate the venue or transport boarding point."
+    },
+    {
+      "id": "flower-market",
+      "name": "Flower Market",
+      "category": "attraction",
+      "district": "Mong Kok",
+      "region": "kowloon",
+      "tags": [
+        "culture",
+        "shopping",
+        "family"
+      ],
+      "price_hkd": 0,
+      "duration_min": 45,
+      "open": "09:30",
+      "close": "19:00",
+      "closed_days": [],
+      "kid_friendly": true,
+      "lat": 22.3251,
+      "lng": 114.172,
+      "source": "https://www.discoverhongkong.com/eng/place-to-go/travel.guide-flower-market.html",
+      "notes": "Approximate per-person visit cost and regular hours; special exhibitions, holidays and transport fares may differ. Coordinates approximate the venue or transport boarding point."
+    },
+    {
+      "id": "goldfish-market",
+      "name": "Goldfish Market",
+      "category": "attraction",
+      "district": "Mong Kok",
+      "region": "kowloon",
+      "tags": [
+        "culture",
+        "family"
+      ],
+      "price_hkd": 0,
+      "duration_min": 40,
+      "open": "10:00",
+      "close": "20:00",
+      "closed_days": [],
+      "kid_friendly": true,
+      "lat": 22.324,
+      "lng": 114.1705,
+      "source": "https://en.wikipedia.org/wiki/Tung_Choi_Street",
+      "notes": "Approximate per-person visit cost and regular hours; special exhibitions, holidays and transport fares may differ. Coordinates approximate the venue or transport boarding point."
+    },
+    {
+      "id": "one-dim-sum",
+      "name": "One Dim Sum",
+      "category": "restaurant",
+      "district": "Mong Kok",
+      "region": "kowloon",
+      "tags": [
+        "food",
+        "budget",
+        "family"
+      ],
+      "price_hkd": 90,
+      "duration_min": 60,
+      "open": "09:30",
+      "close": "22:30",
+      "closed_days": [],
+      "kid_friendly": true,
+      "lat": 22.325,
+      "lng": 114.1686,
+      "source": "https://onedimsum.hk/?lang=en",
+      "notes": "Approximate per-person visit cost and regular hours; special exhibitions, holidays and transport fares may differ. Coordinates approximate the venue or transport boarding point.",
+      "meal_slots": [
+        "breakfast",
+        "lunch",
+        "dinner"
+      ],
+      "dining_style": "dim_sum"
+    },
+    {
+      "id": "kam-wah-cafe",
+      "name": "Kam Wah Cafe",
+      "category": "restaurant",
+      "district": "Mong Kok",
+      "region": "kowloon",
+      "tags": [
+        "food",
+        "budget"
+      ],
+      "price_hkd": 55,
+      "duration_min": 45,
+      "open": "06:30",
+      "close": "21:00",
+      "closed_days": [],
+      "kid_friendly": true,
+      "lat": 22.3228,
+      "lng": 114.1695,
+      "source": "https://www.discoverhongkong.com/eng/place-to-go/travel.guide-kam-wah-cafe.html",
+      "notes": "Approximate per-person visit cost and regular hours; special exhibitions, holidays and transport fares may differ. Coordinates approximate the venue or transport boarding point.",
+      "meal_slots": [
+        "breakfast",
+        "lunch",
+        "snack"
+      ],
+      "dining_style": "bakery_cafe"
+    },
+    {
+      "id": "tim-ho-wan-sham-shui-po",
+      "name": "Tim Ho Wan Sham Shui Po",
+      "category": "restaurant",
+      "district": "Sham Shui Po",
+      "region": "kowloon",
+      "tags": [
+        "food",
+        "budget",
+        "family"
+      ],
+      "price_hkd": 100,
+      "duration_min": 60,
+      "open": "10:00",
+      "close": "21:30",
+      "closed_days": [],
+      "kid_friendly": true,
+      "lat": 22.3287,
+      "lng": 114.1668,
+      "source": "https://en.wikipedia.org/wiki/Tim_Ho_Wan",
+      "notes": "Approximate per-person visit cost and regular hours; special exhibitions, holidays and transport fares may differ. Coordinates approximate the venue or transport boarding point.",
+      "meal_slots": [
+        "breakfast",
+        "lunch",
+        "dinner"
+      ],
+      "dining_style": "dim_sum"
+    },
+    {
+      "id": "apliu-street-flea-market",
+      "name": "Apliu Street Flea Market",
+      "category": "attraction",
+      "district": "Sham Shui Po",
+      "region": "kowloon",
+      "tags": [
+        "shopping",
+        "culture",
+        "budget"
+      ],
+      "price_hkd": 0,
+      "duration_min": 60,
+      "open": "12:00",
+      "close": "20:00",
+      "closed_days": [],
+      "kid_friendly": true,
+      "lat": 22.3298,
+      "lng": 114.1606,
+      "source": "https://en.wikipedia.org/wiki/Apliu_Street",
+      "notes": "Approximate per-person visit cost and regular hours; special exhibitions, holidays and transport fares may differ. Coordinates approximate the venue or transport boarding point."
+    },
+    {
+      "id": "mei-ho-house-heritage-museum",
+      "name": "Mei Ho House Heritage Museum",
+      "category": "attraction",
+      "district": "Sham Shui Po",
+      "region": "kowloon",
+      "tags": [
+        "culture",
+        "museum",
+        "family",
+        "budget"
+      ],
+      "price_hkd": 0,
+      "duration_min": 60,
+      "open": "09:30",
+      "close": "17:00",
+      "closed_days": [
+        "Monday"
+      ],
+      "kid_friendly": true,
+      "lat": 22.3337,
+      "lng": 114.1677,
+      "source": "https://en.wikipedia.org/wiki/Mei_Ho_House",
+      "notes": "Approximate per-person visit cost and regular hours; special exhibitions, holidays and transport fares may differ. Coordinates approximate the venue or transport boarding point."
+    },
+    {
+      "id": "garden-hill",
+      "name": "Garden Hill",
+      "category": "attraction",
+      "district": "Sham Shui Po",
+      "region": "kowloon",
+      "tags": [
+        "views",
+        "nature",
+        "budget"
+      ],
+      "price_hkd": 0,
+      "duration_min": 60,
+      "open": "06:00",
+      "close": "21:00",
+      "closed_days": [],
+      "kid_friendly": true,
+      "lat": 22.3338,
+      "lng": 114.1689,
+      "source": "https://en.wikipedia.org/wiki/Garden_Hill_(Hong_Kong)",
+      "notes": "Approximate per-person visit cost and regular hours; special exhibitions, holidays and transport fares may differ. Coordinates approximate the venue or transport boarding point."
+    },
+    {
+      "id": "kung-wo-beancurd-factory",
+      "name": "Kung Wo Beancurd Factory",
+      "category": "restaurant",
+      "district": "Sham Shui Po",
+      "region": "kowloon",
+      "tags": [
+        "food",
+        "budget"
+      ],
+      "price_hkd": 40,
+      "duration_min": 35,
+      "open": "07:00",
+      "close": "20:00",
+      "closed_days": [],
+      "kid_friendly": true,
+      "lat": 22.3298,
+      "lng": 114.1621,
+      "source": "https://www.discoverhongkong.com/eng/place-to-go/travel.guide-kung-wo-beancurd-factory.html",
+      "notes": "Approximate per-person visit cost and regular hours; special exhibitions, holidays and transport fares may differ. Coordinates approximate the venue or transport boarding point.",
+      "meal_slots": [
+        "breakfast",
+        "snack"
+      ],
+      "dining_style": "tofu_dessert"
+    },
+    {
+      "id": "temple-street-night-market",
+      "name": "Temple Street Night Market",
+      "category": "attraction",
+      "district": "Yau Ma Tei",
+      "region": "kowloon",
+      "tags": [
+        "nightlife",
+        "shopping"
+      ],
+      "price_hkd": 0,
+      "duration_min": 60,
+      "open": "17:00",
+      "close": "23:00",
+      "closed_days": [],
+      "kid_friendly": false,
+      "lat": 22.3074,
+      "lng": 114.17,
+      "source": "https://en.wikipedia.org/wiki/Temple_Street%2C_Hong_Kong",
+      "notes": "Approximate per-person visit cost and regular hours; special exhibitions, holidays and transport fares may differ. Coordinates approximate the venue or transport boarding point. Free market browsing only; food purchases are not included."
+    },
+    {
+      "id": "tin-hau-temple-yau-ma-tei",
+      "name": "Tin Hau Temple Yau Ma Tei",
+      "category": "attraction",
+      "district": "Yau Ma Tei",
+      "region": "kowloon",
+      "tags": [
+        "culture",
+        "budget"
+      ],
+      "price_hkd": 0,
+      "duration_min": 40,
+      "open": "08:00",
+      "close": "17:00",
+      "closed_days": [],
+      "kid_friendly": true,
+      "lat": 22.3104,
+      "lng": 114.1708,
+      "source": "https://en.wikipedia.org/wiki/Tin_Hau_Temple_Complex%2C_Yau_Ma_Tei",
+      "notes": "Approximate per-person visit cost and regular hours; special exhibitions, holidays and transport fares may differ. Coordinates approximate the venue or transport boarding point."
+    },
+    {
+      "id": "australia-dairy-company",
+      "name": "Australia Dairy Company",
+      "category": "restaurant",
+      "district": "Jordan",
+      "region": "kowloon",
+      "tags": [
+        "food",
+        "budget"
+      ],
+      "price_hkd": 65,
+      "duration_min": 45,
+      "open": "07:30",
+      "close": "22:00",
+      "closed_days": [
+        "Thursday"
+      ],
+      "kid_friendly": true,
+      "lat": 22.3048,
+      "lng": 114.1716,
+      "source": "https://en.wikipedia.org/wiki/Australia_Dairy_Company",
+      "notes": "Approximate per-person visit cost and regular hours; special exhibitions, holidays and transport fares may differ. Coordinates approximate the venue or transport boarding point.",
+      "meal_slots": [
+        "breakfast",
+        "lunch",
+        "snack"
+      ],
+      "dining_style": "dairy_cafe"
+    },
+    {
+      "id": "mido-cafe",
+      "name": "Mido Cafe",
+      "category": "restaurant",
+      "district": "Yau Ma Tei",
+      "region": "kowloon",
+      "tags": [
+        "food",
+        "culture"
+      ],
+      "price_hkd": 75,
+      "duration_min": 50,
+      "open": "09:00",
+      "close": "21:00",
+      "closed_days": [],
+      "kid_friendly": true,
+      "lat": 22.3102,
+      "lng": 114.1703,
+      "source": "https://en.wikipedia.org/wiki/Mido_Cafe",
+      "notes": "Approximate per-person visit cost and regular hours; special exhibitions, holidays and transport fares may differ. Coordinates approximate the venue or transport boarding point.",
+      "meal_slots": [
+        "breakfast",
+        "lunch",
+        "snack",
+        "dinner"
+      ],
+      "dining_style": "cha_chaan_teng"
+    },
+    {
+      "id": "yau-ma-tei-theatre",
+      "name": "Yau Ma Tei Theatre",
+      "category": "attraction",
+      "district": "Yau Ma Tei",
+      "region": "kowloon",
+      "tags": [
+        "culture"
+      ],
+      "price_hkd": 0,
+      "duration_min": 30,
+      "open": "12:00",
+      "close": "20:00",
+      "closed_days": [],
+      "kid_friendly": true,
+      "lat": 22.3129,
+      "lng": 114.1694,
+      "source": "https://en.wikipedia.org/wiki/Yau_Ma_Tei_Theatre",
+      "notes": "Approximate per-person visit cost and regular hours; special exhibitions, holidays and transport fares may differ. Coordinates approximate the venue or transport boarding point."
+    },
+    {
+      "id": "kowloon-walled-city-park",
+      "name": "Kowloon Walled City Park",
+      "category": "attraction",
+      "district": "Kowloon City",
+      "region": "kowloon",
+      "tags": [
+        "culture",
+        "nature",
+        "family",
+        "budget"
+      ],
+      "price_hkd": 0,
+      "duration_min": 90,
+      "open": "06:30",
+      "close": "23:00",
+      "closed_days": [],
+      "kid_friendly": true,
+      "lat": 22.3322,
+      "lng": 114.1901,
+      "source": "https://en.wikipedia.org/wiki/Kowloon_Walled_City_Park",
+      "notes": "Approximate per-person visit cost and regular hours; special exhibitions, holidays and transport fares may differ. Coordinates approximate the venue or transport boarding point."
+    },
+    {
+      "id": "hau-wong-temple",
+      "name": "Hau Wong Temple",
+      "category": "attraction",
+      "district": "Kowloon City",
+      "region": "kowloon",
+      "tags": [
+        "culture",
+        "budget"
+      ],
+      "price_hkd": 0,
+      "duration_min": 35,
+      "open": "08:00",
+      "close": "17:00",
+      "closed_days": [],
+      "kid_friendly": true,
+      "lat": 22.3328,
+      "lng": 114.1875,
+      "source": "https://en.wikipedia.org/wiki/Hau_Wong_Temple",
+      "notes": "Approximate per-person visit cost and regular hours; special exhibitions, holidays and transport fares may differ. Coordinates approximate the venue or transport boarding point."
+    },
+    {
+      "id": "islam-food",
+      "name": "Islam Food",
+      "category": "restaurant",
+      "district": "Kowloon City",
+      "region": "kowloon",
+      "tags": [
+        "food",
+        "family"
+      ],
+      "price_hkd": 85,
+      "duration_min": 60,
+      "open": "11:00",
+      "close": "22:00",
+      "closed_days": [],
+      "kid_friendly": true,
+      "lat": 22.329,
+      "lng": 114.1901,
+      "source": "https://www.discoverhongkong.com/eng/place-to-go/travel.guide-islam-food.html",
+      "notes": "Approximate per-person visit cost and regular hours; special exhibitions, holidays and transport fares may differ. Coordinates approximate the venue or transport boarding point.",
+      "meal_slots": [
+        "lunch",
+        "dinner"
+      ],
+      "dining_style": "halal_chinese"
+    },
+    {
+      "id": "chiu-chow-hop-shing-dessert",
+      "name": "Chiu Chow Hop Shing Dessert",
+      "category": "restaurant",
+      "district": "Kowloon City",
+      "region": "kowloon",
+      "tags": [
+        "food",
+        "budget"
+      ],
+      "price_hkd": 45,
+      "duration_min": 40,
+      "open": "13:00",
+      "close": "23:00",
+      "closed_days": [],
+      "kid_friendly": true,
+      "lat": 22.329,
+      "lng": 114.1892,
+      "source": "https://www.discoverhongkong.com/eng/place-to-go/travel.guide-chiu-chow-hop-shing-dessert.html",
+      "notes": "Dessert allowance at 9 Lung Kong Road, Kowloon City. Approximate price and regular hours; verify before visiting.",
+      "meal_slots": [
+        "snack"
+      ],
+      "dining_style": "teochew_dessert"
+    },
+    {
+      "id": "victoria-peak-lugard-road",
+      "name": "Victoria Peak Lugard Road",
+      "category": "attraction",
+      "district": "Peak",
+      "region": "hong_kong_island",
+      "tags": [
+        "views",
+        "nature",
+        "family",
+        "budget",
+        "viewpoint"
+      ],
+      "price_hkd": 0,
+      "duration_min": 90,
+      "open": "06:00",
+      "close": "22:00",
+      "closed_days": [],
+      "kid_friendly": true,
+      "lat": 22.2755,
+      "lng": 114.1456,
+      "source": "https://en.wikipedia.org/wiki/Lugard_Road",
+      "notes": "Approximate per-person visit cost and regular hours; special exhibitions, holidays and transport fares may differ. Coordinates approximate the venue or transport boarding point."
+    },
+    {
+      "id": "sky-terrace-428",
+      "name": "Sky Terrace 428",
+      "category": "attraction",
+      "district": "Peak",
+      "region": "hong_kong_island",
+      "tags": [
+        "views",
+        "family",
+        "viewpoint"
+      ],
+      "price_hkd": 80,
+      "duration_min": 45,
+      "open": "08:30",
+      "close": "22:00",
+      "closed_days": [],
+      "kid_friendly": true,
+      "lat": 22.2712,
+      "lng": 114.1499,
+      "source": "https://en.wikipedia.org/wiki/Peak_Tower",
+      "notes": "Approximate per-person visit cost and regular hours; special exhibitions, holidays and transport fares may differ. Coordinates approximate the venue or transport boarding point."
+    },
+    {
+      "id": "peak-galleria",
+      "name": "Peak Galleria",
+      "category": "attraction",
+      "district": "Peak",
+      "region": "hong_kong_island",
+      "tags": [
+        "views",
+        "shopping",
+        "family"
+      ],
+      "price_hkd": 0,
+      "duration_min": 45,
+      "open": "10:00",
+      "close": "22:00",
+      "closed_days": [],
+      "kid_friendly": true,
+      "lat": 22.2707,
+      "lng": 114.15,
+      "source": "https://en.wikipedia.org/wiki/Peak_Galleria",
+      "notes": "Approximate per-person visit cost and regular hours; special exhibitions, holidays and transport fares may differ. Coordinates approximate the venue or transport boarding point."
+    },
+    {
+      "id": "tian-tan-buddha",
+      "name": "Tian Tan Buddha",
+      "category": "attraction",
+      "district": "Lantau",
+      "region": "lantau",
+      "tags": [
+        "culture",
+        "views",
+        "family"
+      ],
+      "price_hkd": 0,
+      "duration_min": 90,
+      "open": "10:00",
+      "close": "17:30",
+      "closed_days": [],
+      "kid_friendly": true,
+      "lat": 22.254,
+      "lng": 113.905,
+      "source": "https://en.wikipedia.org/wiki/Tian_Tan_Buddha",
+      "notes": "Approximate per-person visit cost and regular hours; special exhibitions, holidays and transport fares may differ. Coordinates approximate the venue or transport boarding point."
+    },
+    {
+      "id": "po-lin-monastery",
+      "name": "Po Lin Monastery",
+      "category": "attraction",
+      "district": "Lantau",
+      "region": "lantau",
+      "tags": [
+        "culture",
+        "family"
+      ],
+      "price_hkd": 0,
+      "duration_min": 60,
+      "open": "08:00",
+      "close": "18:00",
+      "closed_days": [],
+      "kid_friendly": true,
+      "lat": 22.2556,
+      "lng": 113.9077,
+      "source": "https://en.wikipedia.org/wiki/Po_Lin_Monastery",
+      "notes": "Approximate per-person visit cost and regular hours; special exhibitions, holidays and transport fares may differ. Coordinates approximate the venue or transport boarding point."
+    },
+    {
+      "id": "ngong-ping-360",
+      "name": "Ngong Ping 360",
+      "category": "transport",
+      "district": "Lantau",
+      "region": "lantau",
+      "tags": [
+        "views",
+        "family"
+      ],
+      "price_hkd": 295,
+      "duration_min": 45,
+      "open": "10:00",
+      "close": "18:00",
+      "closed_days": [],
+      "kid_friendly": true,
+      "lat": 22.2892,
+      "lng": 113.938,
+      "source": "https://en.wikipedia.org/wiki/Ngong_Ping_360",
+      "notes": "Approximate per-person visit cost and regular hours; special exhibitions, holidays and transport fares may differ. Coordinates approximate the venue or transport boarding point. Adult standard-cabin return fare; hours vary by day and maintenance schedule."
+    },
+    {
+      "id": "tai-o-fishing-village",
+      "name": "Tai O Fishing Village",
+      "category": "attraction",
+      "district": "Lantau",
+      "region": "lantau",
+      "tags": [
+        "culture",
+        "nature",
+        "family"
+      ],
+      "price_hkd": 0,
+      "duration_min": 120,
+      "open": "09:00",
+      "close": "18:00",
+      "closed_days": [],
+      "kid_friendly": true,
+      "lat": 22.2525,
+      "lng": 113.8639,
+      "source": "https://en.wikipedia.org/wiki/Tai_O",
+      "notes": "Approximate per-person visit cost and regular hours; special exhibitions, holidays and transport fares may differ. Coordinates approximate the venue or transport boarding point."
+    },
+    {
+      "id": "hong-kong-disneyland",
+      "name": "Hong Kong Disneyland",
+      "category": "attraction",
+      "district": "Lantau",
+      "region": "lantau",
+      "tags": [
+        "family"
+      ],
+      "price_hkd": 669,
+      "duration_min": 480,
+      "open": "10:30",
+      "close": "20:30",
+      "closed_days": [],
+      "kid_friendly": true,
+      "lat": 22.3129,
+      "lng": 114.0413,
+      "source": "https://en.wikipedia.org/wiki/Hong_Kong_Disneyland",
+      "notes": "Approximate per-person visit cost and regular hours; special exhibitions, holidays and transport fares may differ. Coordinates approximate the venue or transport boarding point. Adult 1-day starting-tier ticket allowance; date-based tiers cost more. Park hours vary daily."
+    },
+    {
+      "id": "mui-wo-silvermine-bay-beach",
+      "name": "Mui Wo Silvermine Bay Beach",
+      "category": "attraction",
+      "district": "Lantau",
+      "region": "lantau",
+      "tags": [
+        "nature",
+        "family",
+        "budget"
+      ],
+      "price_hkd": 0,
+      "duration_min": 90,
+      "open": "06:00",
+      "close": "20:00",
+      "closed_days": [],
+      "kid_friendly": true,
+      "lat": 22.2694,
+      "lng": 114.0015,
+      "source": "https://en.wikipedia.org/wiki/Silver_Mine_Bay_Beach",
+      "notes": "Approximate per-person visit cost and regular hours; special exhibitions, holidays and transport fares may differ. Coordinates approximate the venue or transport boarding point."
+    },
+    {
+      "id": "stanley-market",
+      "name": "Stanley Market",
+      "category": "attraction",
+      "district": "Stanley",
+      "region": "hong_kong_island",
+      "tags": [
+        "shopping",
+        "culture"
+      ],
+      "price_hkd": 0,
+      "duration_min": 60,
+      "open": "10:00",
+      "close": "18:00",
+      "closed_days": [],
+      "kid_friendly": true,
+      "lat": 22.2192,
+      "lng": 114.2135,
+      "source": "https://en.wikipedia.org/wiki/Stanley_Market",
+      "notes": "Approximate per-person visit cost and regular hours; special exhibitions, holidays and transport fares may differ. Coordinates approximate the venue or transport boarding point."
+    },
+    {
+      "id": "stanley-main-beach",
+      "name": "Stanley Main Beach",
+      "category": "attraction",
+      "district": "Stanley",
+      "region": "hong_kong_island",
+      "tags": [
+        "nature",
+        "family",
+        "budget"
+      ],
+      "price_hkd": 0,
+      "duration_min": 90,
+      "open": "06:00",
+      "close": "20:00",
+      "closed_days": [],
+      "kid_friendly": true,
+      "lat": 22.2193,
+      "lng": 114.2154,
+      "source": "https://en.wikipedia.org/wiki/Stanley_Main_Beach",
+      "notes": "Approximate per-person visit cost and regular hours; special exhibitions, holidays and transport fares may differ. Coordinates approximate the venue or transport boarding point."
+    },
+    {
+      "id": "murray-house",
+      "name": "Murray House",
+      "category": "attraction",
+      "district": "Stanley",
+      "region": "hong_kong_island",
+      "tags": [
+        "culture",
+        "views"
+      ],
+      "price_hkd": 0,
+      "duration_min": 45,
+      "open": "10:00",
+      "close": "22:00",
+      "closed_days": [],
+      "kid_friendly": true,
+      "lat": 22.2184,
+      "lng": 114.2096,
+      "source": "https://en.wikipedia.org/wiki/Murray_House",
+      "notes": "Approximate per-person visit cost and regular hours; special exhibitions, holidays and transport fares may differ. Coordinates approximate the venue or transport boarding point."
+    },
+    {
+      "id": "sai-kung-waterfront-park",
+      "name": "Sai Kung Waterfront Park",
+      "category": "attraction",
+      "district": "Sai Kung",
+      "region": "new_territories",
+      "tags": [
+        "nature",
+        "views",
+        "family",
+        "budget"
+      ],
+      "price_hkd": 0,
+      "duration_min": 75,
+      "open": "00:00",
+      "close": "23:59",
+      "closed_days": [],
+      "kid_friendly": true,
+      "lat": 22.3814,
+      "lng": 114.2741,
+      "source": "https://www.lcsd.gov.hk/en/wedding/skwp.html",
+      "notes": "Approximate per-person visit cost and regular hours; special exhibitions, holidays and transport fares may differ. Coordinates approximate the venue or transport boarding point."
+    },
+    {
+      "id": "sai-kung-seafood-street",
+      "name": "Sai Kung Seafood Street",
+      "category": "restaurant",
+      "district": "Sai Kung",
+      "region": "new_territories",
+      "tags": [
+        "food",
+        "culture"
+      ],
+      "price_hkd": 450,
+      "duration_min": 90,
+      "open": "12:00",
+      "close": "22:00",
+      "closed_days": [],
+      "kid_friendly": true,
+      "lat": 22.3807,
+      "lng": 114.2731,
+      "source": "https://en.wikipedia.org/wiki/Sai_Kung_Town",
+      "notes": "Seafood meal allowance on Sai Kung Seafood Street, not a free browsing stop. Allow about HK$450 per person; live seafood is often priced by weight, with cooking charges. Verify the menu and total before ordering.",
+      "meal_slots": [
+        "lunch",
+        "dinner"
+      ],
+      "dining_style": "seafood"
+    },
+    {
+      "id": "high-island-reservoir-east-dam",
+      "name": "High Island Reservoir East Dam",
+      "category": "attraction",
+      "district": "Sai Kung",
+      "region": "new_territories",
+      "tags": [
+        "nature",
+        "views"
+      ],
+      "price_hkd": 0,
+      "duration_min": 120,
+      "open": "06:00",
+      "close": "18:00",
+      "closed_days": [],
+      "kid_friendly": true,
+      "lat": 22.3615,
+      "lng": 114.3742,
+      "source": "https://en.wikipedia.org/wiki/High_Island_Reservoir",
+      "notes": "Approximate per-person visit cost and regular hours; special exhibitions, holidays and transport fares may differ. Coordinates approximate the venue or transport boarding point."
+    },
+    {
+      "id": "loaf-on",
+      "name": "Loaf On",
+      "category": "restaurant",
+      "district": "Sai Kung",
+      "region": "new_territories",
+      "tags": [
+        "food"
+      ],
+      "price_hkd": 300,
+      "duration_min": 90,
+      "open": "12:00",
+      "close": "22:00",
+      "closed_days": [],
+      "kid_friendly": true,
+      "lat": 22.3813,
+      "lng": 114.2718,
+      "source": "https://loafon.com/en/",
+      "notes": "Approximate per-person visit cost and regular hours; special exhibitions, holidays and transport fares may differ. Coordinates approximate the venue or transport boarding point.",
+      "meal_slots": [
+        "lunch",
+        "dinner"
+      ],
+      "dining_style": "seafood"
+    },
+    {
+      "id": "hong-kong-heritage-museum",
+      "name": "Hong Kong Heritage Museum",
+      "category": "attraction",
+      "district": "Sha Tin",
+      "region": "new_territories",
+      "tags": [
+        "museum",
+        "culture",
+        "family",
+        "budget"
+      ],
+      "price_hkd": 0,
+      "duration_min": 90,
+      "open": "10:00",
+      "close": "18:00",
+      "closed_days": [
+        "Tuesday"
+      ],
+      "kid_friendly": true,
+      "lat": 22.377,
+      "lng": 114.1851,
+      "source": "https://en.wikipedia.org/wiki/Hong_Kong_Heritage_Museum",
+      "notes": "Approximate per-person visit cost and regular hours; special exhibitions, holidays and transport fares may differ. Coordinates approximate the venue or transport boarding point."
+    },
+    {
+      "id": "ten-thousand-buddhas-monastery",
+      "name": "Ten Thousand Buddhas Monastery",
+      "category": "attraction",
+      "district": "Sha Tin",
+      "region": "new_territories",
+      "tags": [
+        "culture",
+        "views"
+      ],
+      "price_hkd": 0,
+      "duration_min": 90,
+      "open": "09:00",
+      "close": "17:00",
+      "closed_days": [],
+      "kid_friendly": true,
+      "lat": 22.3876,
+      "lng": 114.1866,
+      "source": "https://en.wikipedia.org/wiki/Ten_Thousand_Buddhas_Monastery",
+      "notes": "Approximate per-person visit cost and regular hours; special exhibitions, holidays and transport fares may differ. Coordinates approximate the venue or transport boarding point."
+    },
+    {
+      "id": "sha-tin-park",
+      "name": "Sha Tin Park",
+      "category": "attraction",
+      "district": "Sha Tin",
+      "region": "new_territories",
+      "tags": [
+        "nature",
+        "family",
+        "budget"
+      ],
+      "price_hkd": 0,
+      "duration_min": 60,
+      "open": "06:00",
+      "close": "23:00",
+      "closed_days": [],
+      "kid_friendly": true,
+      "lat": 22.3796,
+      "lng": 114.1903,
+      "source": "https://en.wikipedia.org/wiki/Sha_Tin_Park",
+      "notes": "Approximate per-person visit cost and regular hours; special exhibitions, holidays and transport fares may differ. Coordinates approximate the venue or transport boarding point."
+    },
+    {
+      "id": "mtr-ride-octopus",
+      "name": "MTR ride (Octopus)",
+      "category": "transport",
+      "district": "Sha Tin",
+      "region": "new_territories",
+      "tags": [
+        "budget",
+        "family"
+      ],
+      "price_hkd": 15,
+      "duration_min": 30,
+      "open": "06:00",
+      "close": "23:59",
+      "closed_days": [],
+      "kid_friendly": true,
+      "lat": 22.3822,
+      "lng": 114.1875,
+      "source": "https://en.wikipedia.org/wiki/Octopus_card",
+      "notes": "Illustrative adult Octopus single-ride allowance from Sha Tin station, not a day pass. Actual fare depends on origin and destination; airport travel excluded."
+    },
+    {
+      "id": "nan-lian-garden",
+      "name": "Nan Lian Garden",
+      "category": "attraction",
+      "district": "Diamond Hill",
+      "region": "kowloon",
+      "tags": [
+        "nature",
+        "culture",
+        "family",
+        "budget"
+      ],
+      "price_hkd": 0,
+      "duration_min": 75,
+      "open": "07:00",
+      "close": "21:00",
+      "closed_days": [],
+      "kid_friendly": true,
+      "lat": 22.3391,
+      "lng": 114.2048,
+      "source": "https://en.wikipedia.org/wiki/Nan_Lian_Garden",
+      "notes": "Approximate per-person visit cost and regular hours; special exhibitions, holidays and transport fares may differ. Coordinates approximate the venue or transport boarding point."
+    },
+    {
+      "id": "chi-lin-nunnery",
+      "name": "Chi Lin Nunnery",
+      "category": "attraction",
+      "district": "Diamond Hill",
+      "region": "kowloon",
+      "tags": [
+        "culture",
+        "family",
+        "budget"
+      ],
+      "price_hkd": 0,
+      "duration_min": 60,
+      "open": "09:00",
+      "close": "16:30",
+      "closed_days": [],
+      "kid_friendly": true,
+      "lat": 22.3409,
+      "lng": 114.2051,
+      "source": "https://en.wikipedia.org/wiki/Chi_Lin_Nunnery",
+      "notes": "Approximate per-person visit cost and regular hours; special exhibitions, holidays and transport fares may differ. Coordinates approximate the venue or transport boarding point."
+    }
+  ]
+}

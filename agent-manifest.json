@@ -1,0 +1,80 @@
+{
+  "brand": "Wayfinder",
+  "networks": [
+    {
+      "name": "wayfinder",
+      "front_man": "wayfinder_planner",
+      "hocon": "./agent.json",
+      "description": "Grounded Hong Kong itineraries from four browser-local agents. Default inference is deterministic rule-based planning, not an LLM.",
+      "tags": [
+        "travel",
+        "hong-kong",
+        "local-rule-based"
+      ],
+      "sample_queries": [
+        "Plan a 2-day food trip in Hong Kong under $150",
+        "Plan a relaxed 1-day family outing in Kowloon",
+        "Plan a 1-day culture and views trip on Hong Kong Island under $80"
+      ]
+    }
+  ],
+  "llm_router": {
+    "default": {
+      "mode": "local-rule-based",
+      "description": "Deterministic offline planner; not an LLM."
+    },
+    "mock": false,
+    "byok_router": {
+      "optional": true,
+      "protocol": "openai-compatible",
+      "scope": "goal parsing and final summary only"
+    }
+  },
+  "allowed_peers": [],
+  "peer_policy": {
+    "mode": "closed",
+    "deny_origins": [],
+    "note": "Agent-initiated contact is closed by default. Explicit userInitiated discovery may contact a user-supplied origin only after per-fetch consent. Peers are validated/listed only; no execution.",
+    "manual_consent": true
+  },
+  "agent_mcp": {
+    "available": false,
+    "reason": "Static site: MCP discovery and execution are not implemented; unavailable capabilities fail closed."
+  },
+  "linking": {
+    "protocol": "nsdeploy-link/v1",
+    "exports": [
+      {
+        "network": "wayfinder",
+        "front_man": "wayfinder_planner",
+        "aliases": [
+          "wayfinder"
+        ],
+        "url": "wayfinder"
+      }
+    ],
+    "imports": [],
+    "link_updates": {
+      "mode": "browser-local"
+    }
+  },
+  "deployment": {
+    "mode": "static",
+    "self_contained_runtime": true,
+    "direct_byok": true,
+    "public_mcp_facade": false
+  },
+  "actions": {
+    "version": 1,
+    "module": "./runtime.js",
+    "agentTools": [
+      "search_places",
+      "get_place",
+      "estimate_transit",
+      "total_costs",
+      "check_budget",
+      "build_schedule",
+      "write_itinerary_to_page"
+    ]
+  }
+}

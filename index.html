@@ -1,0 +1,278 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#12685b" />
+    <meta name="description" content="A grounded, browser-local Hong Kong trip planner with four inspectable agents." />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' rx='10' fill='%2312685b'/%3E%3Cpath d='M12 28l8-18 8 18-8-5z' fill='white'/%3E%3C/svg%3E"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="./runtime.js" defer></script>
+    <script src="./app.js" defer></script>
+    <title>Wayfinder — Hong Kong, your way</title>
+  </head>
+  <body>
+    <a class="skip-link" href="#goal">Skip to trip planner</a>
+    <header class="site-header wrap">
+      <div class="brand" role="group" aria-label="Wayfinder — open agentic trip planner for Hong Kong">
+        <svg class="brand-mark" viewBox="0 0 40 40" aria-hidden="true">
+          <rect width="40" height="40" rx="12" />
+          <path d="M12 29l8-19 8 19-8-5z" />
+        </svg>
+        <div>
+          <strong>Wayfinder</strong>
+          <p>open agentic trip planner for Hong Kong</p>
+        </div>
+      </div>
+      <nav aria-label="Site">
+        <a href="./agent-manifest.json">Manifest ↗</a><a href="./agent.json">Agent network ↗</a
+        ><button id="open-settings" class="quiet">Settings</button>
+      </nav>
+    </header>
+    <main class="wrap">
+      <section class="hero" aria-labelledby="page-title">
+        <div>
+          <p class="eyebrow">FOUR AGENTS. ONE GOOD TRIP.</p>
+          <h1 id="page-title">Less searching.<br />More <em>Hong Kong.</em></h1>
+          <p class="hero-copy">
+            Tell us your kind of day. Watch a small team turn real places,<br class="desktop-only" />
+            a sensible budget and a little curiosity into a plan.
+          </p>
+        </div>
+        <div class="hero-aside">
+          <span id="inference-badge" class="pill">Local rule-based planner (no LLM)</span>
+          <p>Runs in your browser. No account.<br />No bookings. Just possibilities.</p>
+          <span class="coordinate-label">22.3193° N · 114.1694° E</span>
+        </div>
+      </section>
+      <div id="error-banner" class="notice error" role="alert" hidden></div>
+      <div class="workspace">
+        <aside class="planner-column">
+          <section class="card planner" aria-labelledby="planner-title">
+            <div class="section-heading">
+              <span class="step-number">01</span>
+              <h2 id="planner-title">Make it your trip</h2>
+            </div>
+            <form id="planner-form">
+              <label for="goal">What would you like to do?</label>
+              <textarea
+                id="goal"
+                rows="4"
+                required
+                placeholder="Plan a 2-day food trip in Hong Kong under $150"
+              ></textarea>
+              <p class="field-hint">A day, a district, a craving. Start anywhere.</p>
+              <div id="examples" class="examples" aria-label="Example goals"></div>
+              <div class="form-row">
+                <div>
+                  <label for="budget">Budget · USD / person</label
+                  ><input id="budget" type="number" min="0" max="1000000" step="0.01" placeholder="From your goal" />
+                </div>
+                <div>
+                  <label for="pace">Your pace</label
+                  ><select id="pace">
+                    <option value="">From your goal</option>
+                    <option value="relaxed">Relaxed</option>
+                    <option value="normal">Normal</option>
+                    <option value="packed">Packed</option>
+                  </select>
+                </div>
+              </div>
+              <label for="area">Where to explore</label
+              ><select id="area">
+                <option value="">Any · from your goal</option>
+                <option value="hong_kong_island">Hong Kong Island</option>
+                <option value="kowloon">Kowloon</option>
+                <option value="new_territories">New Territories</option>
+                <option value="lantau">Lantau</option>
+              </select>
+              <fieldset>
+                <legend>Make room for</legend>
+                <div id="interest-chips" class="interest-chips"></div>
+              </fieldset>
+              <button id="run-button" class="primary" type="submit" disabled>
+                Build my itinerary <span aria-hidden="true">↗</span>
+              </button>
+              <p class="privacy-note">71 real places · approximate prices &amp; hours</p>
+            </form>
+          </section>
+          <section class="card activity" aria-labelledby="activity-title">
+            <div class="section-heading">
+              <span class="step-number">02</span>
+              <h2 id="activity-title">Agent activity</h2>
+              <span id="activity-state" class="tiny-label">Ready</span>
+            </div>
+            <div id="agent-lanes" class="agent-lanes"></div>
+            <label class="animation-option"><input id="skip-animation" type="checkbox" /> Skip animation</label>
+            <progress id="progress" max="100" value="0" aria-label="Planning progress"></progress>
+            <ol id="trace" class="trace" aria-live="polite" aria-relevant="additions">
+              <li class="trace-placeholder">Your team is ready. Give them a goal.</li>
+            </ol>
+          </section>
+        </aside>
+        <section class="result-column" aria-labelledby="result-title">
+          <div class="result-heading">
+            <div>
+              <p class="eyebrow">YOUR FIELD NOTES</p>
+              <h2 id="result-title">A good day starts here.</h2>
+            </div>
+            <span id="result-status" class="tiny-label">Not planned yet</span>
+          </div>
+          <div id="empty-state" class="card empty-state">
+            <svg viewBox="0 0 600 260" role="img" aria-label="An illustrated Hong Kong harbour skyline">
+              <circle cx="440" cy="65" r="35" fill="#efd9a1" />
+              <path d="M0 190L90 105l70 50 105-95 110 105 80-70 145 95" fill="#dce8df" />
+              <path
+                d="M0 210h40v-60h30v60h25V98h25v112h26V73h16V43h5v30h16v137h25v-83h25v83h25V45h12V20h4v25h12v165h23v-61h35v61h22v-90h30v90h25V83h20v127h20v-48h43v48h33v-80h32v80h35"
+                fill="#75a398"
+              />
+              <path d="M0 224h600M30 239h120m25 0h220m30 0h140M90 253h180m50 0h120" stroke="#b5d3c8" stroke-width="3" />
+            </svg>
+            <p class="eyebrow">THE CITY IS YOURS TO EXPLORE</p>
+            <h3>From dim sum to the last ferry.</h3>
+            <p>Choose an example or dream up your own day.<br />We’ll connect the dots — and show our working.</p>
+            <div class="empty-facts">
+              <span>01 / Share a goal</span><span>02 / Watch the agents</span><span>03 / Make it yours</span>
+            </div>
+          </div>
+          <div id="results" hidden>
+            <section class="card budget-card" aria-labelledby="budget-title">
+              <div class="budget-top">
+                <div>
+                  <p class="eyebrow" id="budget-title">THE BUDGET CHECK</p>
+                  <strong id="total-hkd"></strong><span id="total-usd"></span>
+                </div>
+                <span id="budget-badge" class="pill"></span>
+              </div>
+              <progress id="budget-progress" max="100" value="0" aria-label="Budget used"></progress>
+              <p id="budget-caption" class="field-hint"></p>
+              <dl id="cost-breakdown" class="cost-breakdown"></dl>
+            </section>
+            <div id="edit-warnings" class="notice" role="status" hidden></div>
+            <div class="itinerary-heading">
+              <h3>Your itinerary</h3>
+              <span class="field-hint">Edit a little. Wander a lot.</span>
+            </div>
+            <div id="timeline"></div>
+            <section class="card add-place" aria-labelledby="add-title">
+              <h3 id="add-title">One more stop?</h3>
+              <label for="place-search">Search the local place catalogue</label
+              ><input id="place-search" type="search" placeholder="Try temple, noodle, park…" />
+              <div class="add-controls">
+                <select id="place-select" aria-label="Matching places"></select
+                ><select id="add-day" aria-label="Day to add place to"></select
+                ><button id="add-place-button" class="secondary">Add stop</button>
+              </div>
+              <p id="search-status" class="field-hint" role="status"></p>
+            </section>
+            <section class="card district-card" aria-labelledby="district-title">
+              <p class="eyebrow">THE LAY OF THE LAND</p>
+              <h3 id="district-title">Your neighbourhood trail</h3>
+              <div id="district-list" class="district-list"></div>
+              <p class="field-hint">Grouped by district, not a navigation map. Travel times are estimates.</p>
+            </section>
+            <section class="card summary-card" aria-labelledby="summary-title">
+              <h3 id="summary-title">A note from your planning team</h3>
+              <p id="summary"></p>
+              <details>
+                <summary>Sources &amp; visiting information</summary>
+                <ul id="sources"></ul>
+              </details>
+            </section>
+            <div class="export-row">
+              <button id="copy-text" class="secondary">Copy as text</button
+              ><button id="download-text" class="quiet">Download .txt ↓</button
+              ><button id="download-json" class="quiet">Download JSON ↓</button>
+            </div>
+            <p id="export-status" role="status" class="field-hint"></p>
+          </div>
+        </section>
+      </div>
+      <footer>
+        <div>
+          <strong>Wayfinder</strong>
+          <p>A small, open experiment in the agentic web.<br />Made for curious people, not perfect predictions.</p>
+        </div>
+        <details class="for-agents">
+          <summary>For agents &amp; builders</summary>
+          <p>
+            Use <code>window.AgenticWeb.load()</code> then <code>run(goal)</code>. Same-origin windows can send
+            <code>{type:"agentic-web:invoke", goal, id}</code> and receive
+            <code>{type:"agentic-web:result", id, result}</code>. Cross-origin messaging is denied.
+          </p>
+          <p>Auto-run: <code>?goal=…</code>; machine output: <code>?goal=…&amp;format=json</code>.</p>
+          <a href="./agent-manifest.json">agent-manifest.json</a> · <a href="./agent.json">agent.json</a> ·
+          <a href="./links.json">links.json</a>
+        </details>
+        <span class="footer-label">OPEN AGENTIC WEB CHALLENGE</span>
+      </footer>
+    </main>
+    <dialog id="settings-dialog" aria-labelledby="settings-title">
+      <div class="dialog-heading">
+        <h2 id="settings-title">Your planner settings</h2>
+        <button id="close-settings" class="quiet" aria-label="Close settings">Close ×</button>
+      </div>
+      <p class="field-hint">
+        Local planning works without a key. Optional LLM assistance is used only to parse your goal and write the final
+        summary.
+      </p>
+      <form id="settings-form">
+        <label for="provider">Provider preset</label
+        ><select id="provider">
+          <option value="custom">OpenAI-compatible custom</option>
+          <option value="openrouter">OpenRouter</option>
+          <option value="otari">Otari</option></select
+        ><label for="base-url">Base URL</label
+        ><input id="base-url" type="url" placeholder="https://your-router.example/v1" /><label for="model">Model</label
+        ><input id="model" autocomplete="off" placeholder="Provider model identifier" /><label for="api-key"
+          >API key</label
+        ><input id="api-key" type="password" autocomplete="off" spellcheck="false" />
+        <p class="notice">
+          Saved only in this browser’s localStorage as <code>wayfinder.byok</code>. The key is sent only to this base
+          URL in the Authorization header, never to peers. Other scripts on this origin can access it. Without a key,
+          the local planner is used.
+        </p>
+        <div class="button-row">
+          <button type="submit" class="primary">Save settings</button
+          ><button id="test-connection" type="button" class="secondary">Test connection</button
+          ><button id="delete-profile" type="button" class="quiet danger">Delete stored profile</button>
+        </div>
+      </form>
+      <p id="settings-status" role="status"></p>
+      <hr />
+      <h3>Connect a peer agent site</h3>
+      <p class="field-hint">
+        Validation &amp; listing only. No peer code or LLM is run. Agent-initiated contact stays closed; each manual
+        fetch needs your approval.
+      </p>
+      <label for="peer-url">Peer network URL</label><input id="peer-url" type="url" />
+      <div class="button-row">
+        <button id="connect-peer" class="secondary">Validate peer</button
+        ><button id="sample-peer" class="quiet">Use local sample</button>
+      </div>
+      <p id="peer-status" role="status"></p>
+      <ul id="peer-agents"></ul>
+    </dialog>
+    <dialog id="consent-dialog" aria-labelledby="consent-title">
+      <h2 id="consent-title">Allow this contact?</h2>
+      <p id="consent-origin"></p>
+      <p id="consent-purpose"></p>
+      <p class="field-hint">
+        Only public agent metadata is fetched. No API key, private context or itinerary is shared.
+      </p>
+      <div class="button-row">
+        <button id="consent-deny" class="secondary">Deny</button
+        ><button id="consent-allow" class="primary">Allow this fetch</button>
+      </div>
+    </dialog>
+    <dialog id="copy-dialog" aria-labelledby="copy-title">
+      <h2 id="copy-title">Copy your itinerary</h2>
+      <p>Select the text and copy with your keyboard.</p>
+      <textarea id="copy-fallback" rows="12" readonly aria-label="Itinerary text"></textarea
+      ><button id="close-copy" class="secondary">Done</button>
+    </dialog>
+  </body>
+</html>

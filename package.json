@@ -1,0 +1,9 @@
+{
+  "name": "wayfinder",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "test": "node tests/run_tests.mjs && node tests/smoke_http.mjs",
+    "test:e2e": "node tests/browser_e2e.mjs"
+  }
+}

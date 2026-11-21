@@ -1,0 +1,18 @@
+{
+  "metadata": {
+    "name": "hk_weather_tips",
+    "description": "One-agent declarative discovery sample. General Hong Kong weather precautions, not live data."
+  },
+  "max_steps": 2,
+  "allow_from": [],
+  "sly_data": {},
+  "tools": [{
+    "name": "weather_guide",
+    "function": {
+      "description": "Explain general seasonal precautions; this sample is listed, not executed.",
+      "parameters": {"type": "object", "properties": {"request": {"type": "string"}}, "required": ["request"]}
+    },
+    "instructions": "This is a sample, not a live weather service. Never invent forecasts. Direct visitors to the Hong Kong Observatory for current warnings. No credentials or private context may be requested or forwarded.",
+    "tools": []
+  }]
+}
